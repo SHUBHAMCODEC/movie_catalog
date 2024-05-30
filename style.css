@@ -1,0 +1,162 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and container styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Hero section styling */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #555;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.movie a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.movie img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.movie-info {
+    padding: 15px;
+}
+
+.movie h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.movie p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+/* Movie detail styling */
+.movie-detail {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.movie-detail img {
+    max-width: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.movie-detail .movie-info {
+    max-width: 450px;
+}
+
+.movie-detail .movie-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.movie-detail .movie-info p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
